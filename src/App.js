@@ -1,14 +1,14 @@
-import React, { Component } from 'react';
-import './App.css';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <p>Divyanshu</p>
-      </div>
-    );
-  }
-}
 
+import React from 'react';
+import Button from '../containers/Button';
+import NewsItem from '../containers/NewsItem'
+import Loading from '../containers/Loading'
+let App = () => (
+  <div>
+     <Button />
+     <Loading />
+     <NewsItem />
+  </div>
+);
 export default App;
