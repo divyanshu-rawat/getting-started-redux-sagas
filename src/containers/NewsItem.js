@@ -8,8 +8,7 @@ import { connect } from 'react-redux';
 
 const imgStyle = {
   hight: 'auto',
-  width: '80%',
-  borderRadius: '5%'
+  width: '80%'
 };
 
 const articleStyle = {
